@@ -1,0 +1,22 @@
+{
+  "name": "nbuinfo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kidbai/nbuinfo.git"
+  },
+  "author": "Youngbye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kidbai/nbuinfo/issues"
+  },
+  "homepage": "https://github.com/kidbai/nbuinfo",
+  "devDependencies": {
+    "mongoose": "^4.2.6"
+  }
+}
