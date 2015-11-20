@@ -86,7 +86,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 1rem;
 }
 /* line 21, ../../sass/sass/style.scss */
-.navbar .comment {
+.navbar .new-article {
   width: 30px;
   height: 30px;
   line-height: 30px;
@@ -98,6 +98,57 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: 1px solid #000;
 }
 /* line 29, ../../sass/sass/style.scss */
-.navbar .comment i {
+.navbar .new-article i {
   font-size: 1rem;
+}
+
+/* line 35, ../../sass/sass/style.scss */
+article {
+  position: relative;
+  margin: 5px 0;
+  background-color: #534292;
+}
+/* line 39, ../../sass/sass/style.scss */
+article .post-header {
+  position: relative;
+  padding: 5px;
+  overflow: hidden;
+}
+/* line 44, ../../sass/sass/style.scss */
+article .post-header .user-avatar img {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 49, ../../sass/sass/style.scss */
+article .post-body {
+  position: relative;
+}
+/* line 51, ../../sass/sass/style.scss */
+article .post-body .post-content {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* line 57, ../../sass/sass/style.scss */
+article .post-comment {
+  position: relative;
+  overflow: hidden;
+  padding: 5px;
+}
+/* line 61, ../../sass/sass/style.scss */
+article .post-comment .comment-btn {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 68, ../../sass/sass/style.scss */
+article .post-comment .comment-btn i {
+  color: #fff;
+  font-size: 18px;
 }

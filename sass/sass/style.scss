@@ -18,7 +18,7 @@
             font-size: 1rem;
         }
     }
-    .comment {
+    .new-article {
         width: 30px;
         height: 30px;
         line-height: 30px;
@@ -28,6 +28,47 @@
         border: 1px solid #000;
         i {
             font-size: 1rem;
+        }
+    }
+}
+
+article {
+    position: relative;
+    margin: 5px 0;
+    background-color: #534292;
+    .post-header {
+        position: relative;
+        padding: 5px;
+        overflow: hidden;
+        .user-avatar {
+            img {
+                @include border-radius(50%);
+            }
+        }
+    }
+    .post-body {
+        position: relative;
+        .post-content {
+            color: #fff;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    }
+    .post-comment {
+        position: relative;
+        overflow: hidden;
+        padding: 5px;
+        .comment-btn {
+            position: relative;
+            width: 20px;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            @include border-radius(50%);
+            i {
+                color: #fff;
+                font-size: 18px;
+            }
         }
     }
 }
