@@ -1,0 +1,22 @@
+{
+  "name": "nbuinfo",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Youngbye"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}
