@@ -62,3 +62,42 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 5, ../../sass/sass/style.scss */
+.navbar {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+}
+/* line 9, ../../sass/sass/style.scss */
+.navbar .home {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  float: left;
+  border: 1px solid #000;
+}
+/* line 17, ../../sass/sass/style.scss */
+.navbar .home i {
+  font-size: 1rem;
+}
+/* line 21, ../../sass/sass/style.scss */
+.navbar .comment {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  float: right;
+  border: 1px solid #000;
+}
+/* line 29, ../../sass/sass/style.scss */
+.navbar .comment i {
+  font-size: 1rem;
+}
